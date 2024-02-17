@@ -1,0 +1,81 @@
+
+body{
+    width: 100%;
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    /* background-color: red; */
+}
+
+#navbar li{
+    list-style: none;
+    /* padding: 0 10px; */
+
+}
+
+.custom-font{
+    font-family: "Libre Caslon Text";
+}
+
+.head{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.tek h2{
+    text-align: center;
+}
+.tek{
+    width: 40%;
+    margin: auto;
+}
+
+.signstrip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px;
+    border: 2px solid black;
+    background-color: rgb(255, 102, 0);
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+footer .col{    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+} 
+footer .row{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .row-item{
+    margin: 10px;
+}
+footer .row-item ul{
+   list-style: none;
+   padding: 0px;
+}
+  
+
+  
+  footer .copyright{
+    width: 100%;
+    text-align: center;
+    /* Both are necessary to bring a text in center */
+  }
